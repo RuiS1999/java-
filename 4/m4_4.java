@@ -34,5 +34,12 @@ public class m4_4 {
       System.out.print(base[dna[i]] + " ");
     }
     System.out.println("");
+
+    // 拡張法
+    int[] scores = {20, 30, 40, 50, 60};
+    for (int i = 0; i < scores.length; i++) {
+      System.out.print(scores[i] + " ");
+    }
+    System.out.println("");
   }
 }
